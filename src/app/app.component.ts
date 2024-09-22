@@ -7,7 +7,7 @@ import { PainelComponent } from './components/painel/painel.component';
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [FooterComponent, HeaderComponent, PainelComponent],
+  imports: [FooterComponent, HeaderComponent, PainelComponent, RouterOutlet],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css',
 })

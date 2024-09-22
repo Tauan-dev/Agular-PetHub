@@ -1,0 +1,15 @@
+<section class="cards-container">
+  <mat-card class="example-card" appearance="outlined">
+    <mat-card-header>
+      <mat-card-title>{{ petData.name }}</mat-card-title>
+    </mat-card-header>
+    <img mat-card-image [src]="petData.img" alt="Foto do Pet" />
+    <mat-card-content>
+      <p>{{ petData.description }}</p>
+    </mat-card-content>
+    <mat-card-actions>
+      <button mat-button>ADOTE</button>
+      <button mat-button>COMPARTILHE</button>
+    </mat-card-actions>
+  </mat-card>
+</section>

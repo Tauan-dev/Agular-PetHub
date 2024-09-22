@@ -1,0 +1,86 @@
+/* Container para os cards */
+.cards-container {
+  display: flex;
+  flex-wrap: wrap; /* Permite que os cards quebrem linha em telas menores */
+  justify-content: center; /* Alinha os cards no centro */
+  gap: 20px; /* Espaço entre os cards */
+  padding: 20px;
+}
+
+/* Estilo dos cards */
+.example-card {
+  flex: 1 1 calc(33% - 20px); /* Cards ocupam 1/3 da largura da tela menos o espaço entre eles */
+  max-width: calc(
+    33% - 20px
+  ); /* Garantir que o card não ultrapasse 1/3 da tela */
+  height: 500px; /* Altura fixa */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column; /* Alinha o conteúdo verticalmente */
+  justify-content: space-between; /* Distribui o conteúdo igualmente no card */
+}
+
+/* Ajustes para o hover */
+.example-card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilo da imagem */
+img[mat-card-image] {
+  width: 100%;
+  height: 200px; /* Altura fixa para garantir consistência entre os cards */
+  object-fit: cover;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Conteúdo do card */
+mat-card-content {
+  flex-grow: 1; /* Garante que o conteúdo cresça para preencher o espaço */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+  text-align: center;
+  font-size: 1rem;
+  color: #555;
+}
+
+/* Botões */
+mat-card-actions {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+  border-top: 1px solid #ddd;
+}
+
+button[mat-button] {
+  background-color: #007bff;
+  color: white;
+  font-weight: bold;
+  border-radius: 4px;
+  padding: 10px 16px;
+  text-transform: uppercase;
+  transition: background-color 0.3s ease;
+}
+
+button[mat-button]:hover {
+  background-color: #0056b3;
+}
+
+/* Responsividade */
+@media (max-width: 1024px) {
+  .example-card {
+    flex: 1 1 calc(50% - 20px); /* Cards ocupam 50% da tela em dispositivos médios */
+    max-width: calc(50% - 20px);
+  }
+}
+
+@media (max-width: 768px) {
+  .example-card {
+    flex: 1 1 calc(100% - 20px); /* Cards ocupam 100% da tela em dispositivos pequenos */
+    max-width: calc(100% - 20px);
+  }
+}
