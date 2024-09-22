@@ -1,0 +1,273 @@
+/* Seção Hero */
+
+.container-hero {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px 0;
+  background-color: #ffedcb;
+}
+
+.imagem-hero {
+  border-radius: 10;
+  max-width: 500px;
+  max-height: 500px;
+}
+
+.card-home-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.texto-hero h1 {
+  font-size: 36px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.texto-hero p {
+  font-size: 18px;
+  margin-bottom: 20px;
+  color: #666;
+}
+
+.botao-cta {
+  padding: 15px 30px;
+  background-color: #0a77e8;
+  color: #fff;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+/* Seção de Serviços */
+.servicos {
+  background-color: #fff;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.servicos h2 {
+  font-size: 32px;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.lista-servicos {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.item-servico {
+  flex-basis: calc(20% - 10px);
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #f4f4f4;
+  margin-bottom: 20px;
+}
+
+.item-servico img {
+  width: 50px;
+  margin-bottom: 15px;
+}
+
+.item-servico p {
+  font-size: 16px;
+  font-weight: 600;
+  color: #333;
+}
+
+/* Seção de Promoções */
+.promocoes {
+  background-color: #f9f9f9;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.promocoes h2 {
+  font-size: 28px;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.lista-produtos {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.item-produto {
+  flex-basis: calc(33% - 10px);
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #fff;
+  margin-bottom: 20px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.item-produto img {
+  width: 100px;
+  margin-bottom: 15px;
+}
+
+.item-produto h3 {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.item-produto p {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 15px;
+}
+
+.botao-comprar {
+  padding: 10px 20px;
+  background-color: #0a77e8;
+  color: #fff;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+/* Seção de Depoimentos */
+.depoimentos {
+  background-color: #e0f7fa;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.depoimentos h2 {
+  font-size: 28px;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.lista-depoimentos {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.item-depoimento {
+  flex-basis: calc(33% - 10px);
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #fff;
+  margin-bottom: 20px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.item-depoimento img {
+  width: 80px;
+  margin-bottom: 15px;
+  border-radius: 50%;
+}
+
+.item-depoimento .nome {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.item-depoimento p {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.item-depoimento .avaliacao {
+  font-size: 14px;
+  color: #ffcd3c;
+}
+
+/* Rodapé */
+footer {
+  background-color: #f4f4f4;
+  padding: 50px 0;
+}
+
+.newsletter {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.newsletter h3 {
+  font-size: 20px;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.newsletter form {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.newsletter input {
+  padding: 10px;
+  border-radius: 30px;
+  border: 1px solid #ccc;
+  width: 300px;
+}
+
+.newsletter button {
+  padding: 10px 20px;
+  background-color: #0a77e8;
+  color: #fff;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+}
+
+.contato {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.social-media {
+  text-align: left;
+}
+
+.social-media p {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.social-media a {
+  margin-right: 10px;
+}
+
+.info-contato {
+  text-align: right;
+}
+
+.info-contato p {
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.creditos {
+  text-align: center;
+  color: #777;
+}

@@ -1,0 +1,67 @@
+/* Rodapé */
+
+.newsletter {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.newsletter h3 {
+  font-size: 20px;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.newsletter form {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.newsletter input {
+  padding: 10px;
+  border-radius: 30px;
+  border: 1px solid #ccc;
+  width: 300px;
+}
+
+.newsletter button {
+  padding: 10px 20px;
+  background-color: #0a77e8;
+  color: #fff;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+}
+
+.contato {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.social-media {
+  text-align: left;
+}
+
+.social-media p {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.social-media a {
+  margin-right: 10px;
+}
+
+.info-contato {
+  text-align: right;
+}
+
+.info-contato p {
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.creditos {
+  text-align: center;
+  color: #777;
+}
