@@ -1,27 +1,25 @@
-# FirstAngularProject
+# Pet Hub - Adoção e Cuidados com Animais
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.5.
+**Pet Hub** é uma plataforma desenvolvida em Angular que conecta pessoas interessadas em adotar animais com serviços de cuidados para pets. Além disso, oferece uma variedade de serviços como venda de ração, banho e tosa, saúde e treinamento.
 
-## Development server
+## Funcionalidades
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- **Adoção de Animais**: Página dedicada para adoção, acessível pela rota `/pet`.
+- **Venda de Produtos**: Venda de ração e outros itens essenciais para o cuidado com animais.
+- **Serviços para Pets**: Inclui banho e tosa, saúde, creche, treinamento e higiene.
+- **Formulário de Contato**: Localizado no footer para que os usuários possam entrar em contato.
 
-## Code scaffolding
+## Tecnologias Utilizadas
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- **Angular**: Framework principal usado para o desenvolvimento da aplicação.
+- **HTML5 & CSS3**: Estrutura e estilização do projeto.
+- **TypeScript**: Usado para a lógica da aplicação.
+- **Angular Router**: Utilizado para navegação entre as diferentes páginas.
 
-## Build
+## Como Executar o Projeto
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+1. Clone o repositório:
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+   ```bash
+   git clone https://github.com/Tauan-dev/Agular-PetHub.git
+   ```
